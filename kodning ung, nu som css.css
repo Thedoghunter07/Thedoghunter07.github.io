@@ -1,0 +1,80 @@
+body {
+  background-color:linear-gradient(135deg, orange 50%, cyan 50%);
+}
+
+.headers {
+  text-align: center;
+  font-size: 40px
+}
+
+#headers {
+  text-align: center;
+  font-size: 35px
+}
+
+img {
+  display: block;
+  margin: 50
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fonter {
+  font-family: 'Lobster', cursive;
+}
+
+.container {
+  color: chartreuse;
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 10px;
+  position: relative;
+  background-color: black;
+}
+
+.baggrund {
+  background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/33836086/2e666dbdfd2f8b673566c722c9f9a59ec0f265ba_400x225.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  border: 3px solid chartreuse;
+  border-radius: 8px;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.round {
+  border: 3px solid black;
+  border-radius: 16px;
+  position: relative;
+  top: 50px;
+  width: 650px;
+  margin: 0 auto;
+}
+
+/* style the topnav links */
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+  padding: 20px;
+}
+/* style the topnav links */
+.topnav a {
+float: left;
+display: block;
+color: chartreuse;
+text-align: center;
+padding: 14px 190px;
+text-decoration: none;
+cursor: pointer;
+}
+/* change color om hover */
+.topnav a:hover {
+  background-color: chartreuse;
+  color: black;
+}

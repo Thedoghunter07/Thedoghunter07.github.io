@@ -1,0 +1,41 @@
+.styler {
+  background-image: url("https://cdn1.vectorstock.com/i/1000x1000/98/90/galaxy-background-with-stars-template-vector-19709890.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: chartreuse;
+  text-align: center;
+}
+.container {
+  color: chartreuse;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 10px;
+  position: relative;
+  background-color: black;
+}
+
+.hh {
+  text-align: center;
+}
+
+/* style the topnav links */
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+  padding: 20px;
+}
+
+/* style the topnav links */
+.topnav a {
+  float: left;
+display: block;
+color: chartreuse;
+text-align: center;
+padding: 14px 190px;
+text-decoration: none;
+cursor: pointer;
+}
+.topnav a:hover {
+  background-color: chartreuse;
+  color: black;
+}
